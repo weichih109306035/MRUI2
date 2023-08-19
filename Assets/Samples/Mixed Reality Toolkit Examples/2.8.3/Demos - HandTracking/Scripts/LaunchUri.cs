@@ -16,7 +16,7 @@ namespace Microsoft.MixedReality.Toolkit.Examples.Demos
         /// for more information about the protocols that can be used when launching apps.</param>
         public void Launch(string uri)
         {
-            Debug.Log($"LaunchUri: Launching {uri}");
+            //Debug.Log($"LaunchUri: Launching {uri}");
 
 #if UNITY_WSA
             UnityEngine.WSA.Launcher.LaunchUri(uri, false);

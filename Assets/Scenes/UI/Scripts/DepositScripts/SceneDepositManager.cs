@@ -74,9 +74,9 @@ public class SceneDepositManager : MonoBehaviour
         targets[4].SetActive(false);
         targets[5].SetActive(true);
         //等待2秒後跳到選擇業務頁
-        Invoke("ActivateObjectChoose", 2f);
+        //Invoke("ActivateObjectChoose", 2f);
     }
-    private void ActivateObjectChoose()
+    public void ActivateObjectChoose()
     {
         targets[5].SetActive(false);
         targets[6].SetActive(true);
